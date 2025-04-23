@@ -3,7 +3,7 @@ import CodeMirror from '@uiw/react-codemirror';
 import { javascript } from '@codemirror/lang-javascript';
 import io from 'socket.io-client';
 
-const socket = io('http://YOUR_LOCAL_IP:4000');
+const socket = io('https://your-app-name.up.railway.app');
 
 function App() {
   const [code, setCode] = useState('');
